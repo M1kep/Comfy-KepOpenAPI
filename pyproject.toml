@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-kepopenai"
+description = "ComfyUI-KepOpenAI is a user-friendly node that serves as an interface to the GPT-4 with Vision (GPT-4V) API. This integration facilitates the processing of images coupled with text prompts, leveraging the capabilities of the OpenAI API to generate text completions that are contextually relevant to the provided inputs."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["openai>=1.1"]
+
+[project.urls]
+Repository = "https://github.com/M1kep/ComfyUI-KepOpenAI"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-KepOpenAI"
+Icon = ""
