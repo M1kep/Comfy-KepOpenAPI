@@ -46,7 +46,7 @@ class ImageWithPrompt:
             img = torch.unsqueeze(img, 0)
             b64image = image.pil2base64(image.tensor2pil(img))
             response = self.open_ai_client.chat.completions.create(
-                model="gpt-4-turbo", # XXX TODO "gpt-4o"
+                model="gpt-4o",
                 max_tokens=max_tokens,
                 messages=[
                     {
